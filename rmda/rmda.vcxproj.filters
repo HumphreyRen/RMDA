@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{3bf3282c-e5c2-44b5-b630-bbbb197e7584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="csvRead">
+      <UniqueIdentifier>{556c84f2-d3ec-4093-973a-328830cd9231}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="csvProfile">
+      <UniqueIdentifier>{cbb0384d-fcba-4639-a484-e773444765c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="csvEvolve">
+      <UniqueIdentifier>{87e4b819-3926-45ea-89b7-76508531de71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="csvEvolve2">
+      <UniqueIdentifier>{ae0c889d-5a9c-40cd-8055-7b8e9c8380de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="csvDraw">
+      <UniqueIdentifier>{df9acd09-29f8-480b-99fd-54942da09bc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="csvProfile2">
+      <UniqueIdentifier>{16075ded-ac62-4870-b71b-c15adb62c08f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="csvHealthStatus">
+      <UniqueIdentifier>{c1b7414f-4554-42d1-832a-6b5988b9c9a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\rmda.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\rmdaDoc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\rmda.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="rmda.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rmdaDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rmdaView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CmyDlgBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSetTZ.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSetSjfx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgBarDz.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\common.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\myStruct.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\csvDraw\myDrawCsv.h">
+      <Filter>csvDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\csvDraw\myDrawSB.h">
+      <Filter>csvEvolve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\csvDraw\myTimeScale.h">
+      <Filter>csvEvolve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\csvDraw\myCalcScale.h">
+      <Filter>csvProfile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\csvRead\myReadCsv.h">
+      <Filter>csvRead</Filter>
+    </ClInclude>
+    <ClInclude Include="..\csvRead\mySearchCsv.h">
+      <Filter>csvRead</Filter>
+    </ClInclude>
+    <ClInclude Include="..\csvRead\myReadHsCsv.h">
+      <Filter>csvRead</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="rmda.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rmdaDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rmdaView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CmyDlgBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSetTZ.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSetSjfx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgBarDz.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\common.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\csvDraw\myDrawCsv.cpp">
+      <Filter>csvDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\csvDraw\myDrawCsvEvolve.cpp">
+      <Filter>csvEvolve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\csvDraw\myDrawCsvEvolveThrd.cpp">
+      <Filter>csvEvolve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\csvDraw\myDrawSB.cpp">
+      <Filter>csvEvolve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\csvDraw\myTimeScale.cpp">
+      <Filter>csvEvolve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\csvDraw\myCalcScale.cpp">
+      <Filter>csvProfile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\csvDraw\myDrawCsvProfile.cpp">
+      <Filter>csvProfile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\csvDraw\myDrawCsvEvolve2.cpp">
+      <Filter>csvEvolve2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\csvDraw\myDrawCsvProfile2.cpp">
+      <Filter>csvProfile2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\csvRead\myReadCsv.cpp">
+      <Filter>csvRead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\csvRead\mySearchCsv.cpp">
+      <Filter>csvRead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\csvRead\myReadHsCsv.cpp">
+      <Filter>csvRead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\csvDraw\myDrawCsvHs.cpp">
+      <Filter>csvHealthStatus</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="rmda.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\rmda.manifest" />
+  </ItemGroup>
+</Project>
